@@ -1,5 +1,5 @@
 {
-  "name": "CastPaper",
+  "name": "Cast Paper",
   "description": "論文などをコピーする際に余計な改行を削除する拡張機能",
   "version": "1.0",
   "background": {
