@@ -1,0 +1,21 @@
+{
+  "name": "CastPaper",
+  "description": "論文などをコピーする際に余計な改行を削除する拡張機能",
+  "version": "1.0",
+  "background": {
+    "scripts": [ "js/background.js","js/execCopy.js","js/castText.js"  ]
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "js/content.js" ]
+    }
+  ],
+  "permissions": [ "contextMenus", "<all_urls>", "activeTab" ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "manifest_version": 2
+}
