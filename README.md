@@ -1,4 +1,4 @@
-![Cast Paper](https://github.com/Uno-Takashi/CastPaper/blob/master/logo/logo.png?raw=true"Cast Paper icon")
+![Cast Paper](https://github.com/Uno-Takashi/CastPaper/blob/master/logo/logo.png?raw=true "Cast Paper icon")
 
 Cast Paperは英語論文などに含まれる改行の削除を行うためのクローム拡張機能です。
 ユーザーは通常のコピーと同様に右クリック内のメニューから改行を消したコピーが可能になります
