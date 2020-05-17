@@ -1,6 +1,6 @@
 {
   "name": "Cast Paper",
-  "description": "論文などをコピーする際に余計な改行を削除する拡張機能",
+  "description": "pdfのテキストを改行、ハイフンの削除などの前処理を行った状態でクリップボードにコピーできるようになります",
   "version": "1.0",
   "background": {
     "scripts": [ "js/background.js","js/execCopy.js","js/castText.js"  ]

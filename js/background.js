@@ -1,5 +1,5 @@
 chrome.contextMenus.create({
-	"title": "改行を削除してコピー",
+	"title": "翻訳前処理をしてコピー",
 	"type": "normal",
 	"contexts": ["selection"],
 	"onclick": function (info) {
