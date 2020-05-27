@@ -1,7 +1,7 @@
 function execCopy(string){
 
 	// 空div 生成
-	const tmp = document.createElement("div");
+	const tmp = document.createElement('div');
 	// 選択用のタグ生成
 	const pre = document.createElement('pre');
   
@@ -22,7 +22,7 @@ function execCopy(string){
 	document.getSelection().selectAllChildren(tmp);
   
 	// クリップボードにコピー
-	const result = document.execCommand("copy");
+	const result = document.execCommand('copy');
   
 	// 要素削除
 	document.body.removeChild(tmp);
