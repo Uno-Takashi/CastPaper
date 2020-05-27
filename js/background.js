@@ -1,16 +1,13 @@
 function execPreprocessingCopy(info){
-	var selectiontext=info.selectionText.toString();
-	var castedtext = castText(selectiontext)
-	execCopy(castedtext)
+	const selectiontext=info.selectionText.toString();
+	execCopy(selectiontext);
 }
 
 chrome.contextMenus.create({
-	"title": "翻訳前処理をしてコピー",
-	"type": "normal",
-	"contexts": ["selection"],
-	"onclick": function (info) {
-		execPreprocessingCopy(info)
-	}
+	'title': '翻訳前処理をしてコピー',
+	'type': 'normal',
+	'contexts': ['selection'],
+	'onclick': execPreprocessingCopy,
 });
 
-console.log("Background activate");
+console.log('Background activate');
