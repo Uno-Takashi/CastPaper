@@ -15,9 +15,9 @@ Cast Paperをインストールするとテキスト選択時の右クリック�
 前処理を気軽に行うことが可能なウェブサービスは存在していますが、Cast Paperではさらなる効率化と利便性の向上のために、Google Chromeの拡張機能として組み込むことで通常のコピー＆ペーストとほぼ同じ手順、手間で前処理を行うことを可能にします。
 既存サービスは大変すばらしいものであり、すべての点でCast Paperに優位性があるわけではありませんが、一つの新しい選択肢としてご一考ください。
 
-## ストア
+## インストール
 
-Cast Paperはストアにて公開しております。
+Cast PaperはChrome ウェブストアにて公開しております。
 以下のURLをGoogle Chromeから開くことで、簡単にインストールすることができます。
 
 https://chrome.google.com/webstore/detail/cast-paper/dkfpinocgkcocfagegdgjfinbbpkcpmd
