@@ -8,7 +8,7 @@ chrome.contextMenus.create({
 	'type': 'normal',
 	'contexts': ['selection'],
 	'onclick': function (info) {
-		execPreprocessingCopy(info)
+		execPreprocessingCopy(info);
 	}
 });
 
