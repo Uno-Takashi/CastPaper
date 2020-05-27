@@ -1,7 +1,6 @@
 function execPreprocessingCopy(info){
-	var selectiontext=info.selectionText.toString();
-	var castedtext = castText(selectiontext)
-	execCopy(castedtext)
+	const selectiontext=info.selectionText.toString();
+	execCopy(selectiontext);
 }
 
 chrome.contextMenus.create({
