@@ -1,9 +1,9 @@
 function execCopy(string){
 
 	// 空div 生成
-	var tmp = document.createElement("div");
+	const tmp = document.createElement("div");
 	// 選択用のタグ生成
-	var pre = document.createElement('pre');
+	const pre = document.createElement('pre');
   
 	// 親要素のCSSで user-select: none だとコピーできないので書き換える
 	pre.style.webkitUserSelect = 'auto';
@@ -12,7 +12,7 @@ function execCopy(string){
 	tmp.appendChild(pre).textContent = string;
   
 	// 要素を画面外へ
-	var s = tmp.style;
+	const s = tmp.style;
 	s.position = 'fixed';
 	s.right = '200%';
   
@@ -22,7 +22,7 @@ function execCopy(string){
 	document.getSelection().selectAllChildren(tmp);
   
 	// クリップボードにコピー
-	var result = document.execCommand("copy");
+	const result = document.execCommand("copy");
   
 	// 要素削除
 	document.body.removeChild(tmp);
