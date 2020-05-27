@@ -17,6 +17,6 @@ Cast Paperは英語論文などに含まれる改行やハイフンの削除な�
 Cast Paperはストアにて公開しております。
 以下のURLから簡単にインストールすることができます。
 
-審査中(coming soon)
+https://chrome.google.com/webstore/detail/cast-paper/dkfpinocgkcocfagegdgjfinbbpkcpmd
 
 開発者向けのインストール用zipファイルはリポジトリに含まれています。
