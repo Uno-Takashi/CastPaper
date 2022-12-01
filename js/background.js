@@ -25,3 +25,30 @@ chrome.contextMenus.create({
 });
 
 console.log('Background activate');
+
+function copySelection(tab) {
+  chrome.tabs.executeScript(tab.id, {
+    code: "window.getSelection().toString();"
+  }, function (results) {
+    if (results.length > 0) {
+      execCopy(results[0]);
+    }
+  });
+}
+
+function getCurrentTab(callback) {
+  let queryOptions = { active: true, lastFocusedWindow: true };
+  chrome.tabs.query(queryOptions, ([tab]) => {
+    if (chrome.runtime.lastError)
+      console.error(chrome.runtime.lastError);
+    callback(tab);
+  });
+}
+
+chrome.commands.onCommand.addListener((command) => {
+  switch (command) {
+    case 'copy':
+      getCurrentTab(copySelection);
+      break;
+  }
+});
